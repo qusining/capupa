@@ -9,14 +9,17 @@
             <ion-list id="login-list1" class=" ">
                 <label class="item item-input " id="login-input1">
                     <span class="input-label">Username</span>
-                    <input type="text" placeholder="">
+                    <input ng-model="email" type="text" placeholder="">
                 </label>
                 <label class="item item-input " id="login-input2">
                     <span class="input-label">Password</span>
-                    <input type="password" placeholder="">
+                    <input ng-model="password" type="password" placeholder="">
                 </label>
             </ion-list>
-            <a ui-sref="tabsController.discoverChallenge" id="login-button3" class=" button button-stable  button-block ">Log in</a>
+
+            <div class="spacer" style="height: 40px;"></div>
+            <a ng-click="loginUser()" ui-sref="tabsController.discoverChallenge" id="login-button3" class=" button button-stable  button-block ">Log in</a>
+
             <a ui-sref="signup" id="login-button4" class=" button button-positive  button-block button-clear ">Or create an account</a>
         </form>
     </ion-content>
