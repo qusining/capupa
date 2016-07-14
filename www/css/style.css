@@ -1,0 +1,50 @@
+.has-header-main {
+   /* background-color: lightblue;  */
+     background-image: url('../img/PictureLittle.png') ;   
+}
+
+
+.spacer{
+    margin-top: 100px;
+}
+#cAPUPA-button1{
+    /* opacity: 0.5; */
+    /*font-weight: bold;*/
+    background-color: #3498db;
+    color: white;
+}
+
+#cAPUPA-button40{
+    /* opacity: 0.5; */
+    /*font-weight: bold;*/
+    background-color: #3498db;
+    color: white;
+}
+
+#cAPUPA-button2{
+    /* opacity: 0.5; */
+    /*font-weight: bold;*/
+    background-color: #3498db;
+    color: white;
+}
+
+.list-login{
+    padding-top: 80px;
+}
+
+#login-button4{
+    color:white;
+}
+
+#login-button4{
+    text-decoration: underline;
+}
+
+#login-form1{
+     margin-top: 70px;
+}
+
+#login-button3{
+    background-color: #3498db;
+    color:white;
+}
