@@ -59,10 +59,10 @@ angular.module('app.controllers', [])
 .controller('signupCtrl', function($scope) {
 	var ref = new Firebase("https//papsy-d9aa0.firebaseio.com");
 	  $scope.addUser = function(){
-	  	console.log(this.signup.username);
-	  	console.log(this.signup.password);
+	  	console.log(this.email);
+	  	console.log(this.password);
 
-	  	firebase.auth().createUserWithEmailAndPassword("bobtony@firebase.com","correcthorsebatterystaple").catch(function(error) {
+	  	firebase.auth().createUserWithEmailAndPassword(this.email,this.password).catch(function(error) {
 		  // Handle Errors here.
 		  var errorCode = error.code;
 		  var errorMessage = error.message;
