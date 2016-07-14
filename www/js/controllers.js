@@ -52,7 +52,22 @@ angular.module('app.controllers', [])
 
 })
       
-.controller('loginCtrl', function($scope) {
+.controller('loginCtrl', function($scope, $rootScope, $broadcast, $state) {
+	$scope.loginUser = function(){
+	  	console.log(this.email);
+	  	console.log(this.password);
+
+	  	firebase.auth().signInWithEmailAndPassword(this.email, this.password).catch(function(error) {
+		  // Handle Errors here.
+		  var errorCode = error.code;
+		  var errorMessage = error.message;
+		  console.log("not right password/user");
+		  // ...
+		});
+		$rootScope.$broadcast('authorized');
+        $state.go('tab.dashboard');
+	};
+
 
 })
    
@@ -61,6 +76,7 @@ angular.module('app.controllers', [])
 	  $scope.addUser = function(){
 	  	console.log(this.email);
 	  	console.log(this.password);
+
 
 	  	firebase.auth().createUserWithEmailAndPassword(this.email,this.password).catch(function(error) {
 		  // Handle Errors here.

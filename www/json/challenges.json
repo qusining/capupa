@@ -1,0 +1,27 @@
+{
+  "challenges" : {
+    "1" : {
+      "creater" : "Caldeira",
+      "title" : "Find the real place of the painting!",
+      "detail" : "One painting is shown, find the place where Geraldine, the painter, has painted the picture!",
+      "requirement" : "Anyone",
+      "beginTime" : "14/07/2016",
+      "endTime" : "14/08/2016",
+      "address" : "5 Ruelle Saint-Jean d'Angély, 06300 Nice",
+      "city" : "Nice",
+      "imageLink" : "https://media-cdn.tripadvisor.com/media/photo-s/0a/61/90/52/gallerie-caldeira.jpg"
+    },
+    "2" : {
+      "creater" : "Caldeira",
+      "title" : "Find the real place of the painting!",
+      "detail" : "One painting is shown, find the place where Geraldine, the painter, has painted the picture!",
+      "requirement" : "Anyone",
+      "beginTime" : "14/07/2016",
+      "endTime" : "14/08/2016",
+      "address" : "5 Ruelle Saint-Jean d'Angély, 06300 Nice",
+      "city" : "Nice",
+      "imageLink" : "https://media-cdn.tripadvisor.com/media/photo-s/0a/61/90/52/gallerie-caldeira.jpg"
+    }
+  }
+}
+
